@@ -1,0 +1,47 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">ContextMonitorApp</string>
+
+    <!-- Permissions -->
+    <string name="permission_denied">Permission denied</string>
+
+    <!-- Buttons -->
+    <string name="upload_symptoms">Upload Symptoms</string>
+    <string name="upload_signs_data">Upload Signs Data</string>
+    <string name="measure_heart_rate">Measure Heart Rate</string>
+    <string name="measure_respiratory_rate">Measure Respiratory Rate</string>
+
+    <!-- TextView Labels -->
+    <string name="heart_rate_bpm">Heart Rate: %d BPM</string>
+    <string name="respiratory_rate_bpm">Respiratory Rate: %d BPM</string>
+    <string name="respiratory_rate_result">Respiratory Rate: %d BPM</string>
+
+    <!-- Symptoms List Labels -->
+    <string name="rate_symptoms">Rate Symptoms</string>
+    <string name="select_symptom">Select a Symptom</string> <!-- Added for Spinner label -->
+    <string name="rate_severity">Rate Symptom Severity</string> <!-- Added for rating bar label -->
+    <string name="nausea">Nausea</string>
+    <string name="headache">Headache</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="sore_throat">Sore Throat</string>
+    <string name="fever">Fever</string>
+    <string name="muscle_ache">Muscle Ache</string>
+    <string name="loss_of_smell_or_taste">Loss of Smell or Taste</string>
+    <string name="cough">Cough</string>
+    <string name="shortness_of_breath">Shortness of Breath</string>
+    <string name="feeling_tired">Feeling Tired</string>
+
+    <!-- Symptoms List Array for Spinner -->
+    <string-array name="symptoms_list">
+        <item>@string/nausea</item>
+        <item>@string/headache</item>
+        <item>@string/diarrhea</item>
+        <item>@string/sore_throat</item>
+        <item>@string/fever</item>
+        <item>@string/muscle_ache</item>
+        <item>@string/loss_of_smell_or_taste</item>
+        <item>@string/cough</item>
+        <item>@string/shortness_of_breath</item>
+        <item>@string/feeling_tired</item>
+    </string-array>
+</resources>

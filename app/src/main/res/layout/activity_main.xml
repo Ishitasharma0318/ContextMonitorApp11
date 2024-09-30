@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Centers the content within the layout -->
+
+    <!-- Button for Heart Rate Sensing -->
+    <Button
+        android:id="@+id/button_heart_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/measure_heart_rate"
+        android:layout_gravity="center" /> <!-- Centers the button horizontally -->
+
+    <!-- Button for Respiratory Rate Sensing -->
+    <Button
+        android:id="@+id/button_respiratory_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/measure_respiratory_rate"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" /> <!-- Adds some vertical spacing -->
+
+    <!-- TextView to Display Heart Rate Result -->
+    <TextView
+        android:id="@+id/textview_heart_rate_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/heart_rate_bpm"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center" /> <!-- Centers the text horizontally -->
+
+    <!-- TextView to Display Respiratory Rate Result -->
+    <TextView
+        android:id="@+id/textview_respiratory_rate_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/respiratory_rate_bpm"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center" /> <!-- Centers the text horizontally -->
+
+    <!-- Button to Upload Signs Data -->
+    <Button
+        android:id="@+id/button_upload_signs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_signs_data"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" /> <!-- Centers the button horizontally -->
+
+</LinearLayout>
